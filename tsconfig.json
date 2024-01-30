@@ -2,6 +2,14 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@my-components/angular": [
+        "../Formation/packages/angular/dist"
+      ],
+      "@my-components/angular/standalone": [
+        "../Formation/packages/angular/dist/standalone"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
